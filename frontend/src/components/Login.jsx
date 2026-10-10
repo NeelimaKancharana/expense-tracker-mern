@@ -3,7 +3,6 @@ import { loginStyles } from '../assets/dummyStyles';
 import { EyeOff, Lock, Mail, User } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { tr } from 'date-fns/locale';
 
 const Login = ({onLogin,API_URL = import.meta.env.VITE_API_URL || "http://localhost:4000"}) => {
 

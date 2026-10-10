@@ -2,7 +2,6 @@ import React from 'react';
 
 import {modalStyles } from '../assets/dummyStyles';
 import { X } from 'lucide-react';
-import { set } from 'date-fns/fp';
 
 const AddTransactionModal = ({
   showModal,
